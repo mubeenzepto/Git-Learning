@@ -1,0 +1,3 @@
+https://serverspace.io/support/help/installing-git-on-windows/
+
+ipconfig/release
