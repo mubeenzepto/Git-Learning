@@ -1,3 +1,28 @@
 https://serverspace.io/support/help/installing-git-on-windows/
 
+
+net speed
 ipconfig/release
+
+
+git config --global user.email "yourmail@example.com"
+
+git config --global user.name "Your name"
+
+git init
+
+git add .
+
+git commit -m "Init"
+
+git remote add origin https://github.com/user/repository_name.git
+
+git push -u origin master
+
+ssh-keygen -t rsa -b 4096 -C "yourmail@gmail.com"
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+ssh -T git@<domain or ip address of git server>
